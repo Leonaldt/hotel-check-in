@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
-## required dependencies
+## required technologies
 
 -  [Node.js](https://github.com/nodesource/distributions/blob/master/README.md)
 -  [NPM](https://www.npmjs.com/)
