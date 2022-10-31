@@ -1,0 +1,92 @@
+table {
+  margin-top: 2em;
+}
+
+mat-toolbar {
+  background: #0c705a !important;
+}
+
+section {
+  padding: 32px;
+}
+
+mat-card {
+  margin-top: 1em;
+  padding: 0;
+  border: 2px solid #3f51b5;
+}
+
+mat-card-header {
+  background: #3f51b5;
+  padding: 5px;
+  color: white;
+}
+
+mat-card-title {
+  margin: 10px 0 !important;
+}
+
+mat-card-content {
+  padding: 25px;
+}
+
+:host ::ng-deep mat-progress-spinner {
+  text-align: center !important;
+}
+
+.mat-mini-fab ::ng-deep .mat-button-focus-overlay {
+  display: none;
+}
+
+:host ::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #999999 !important;
+}
+
+mat-checkbox {
+  margin-left: 2em; 
+  margin-top: 1em;
+}
+
+:host ::ng-deep .mat-select-panel-wrap .mat-select-panel {
+  overflow: hidden !important;
+}
+
+.total-label {
+  color: #fff;
+  background: #3f51b5;
+  border-radius: 8px; 
+  padding: 10px;
+  font-weight: 500;
+}
+
+.price-daily {
+  background: #f44336; 
+  padding: 10px; 
+  border-radius: 8px; 
+  color: #fff;
+  font-weight: 500;
+  margin-right: 1em;
+}
+
+mat-card-content {
+  padding: 15px 25px;
+}
+
+.btn-pagination {
+  margin-top: 1em;
+  button {
+    border-radius: 16px;
+  }
+  button:first-child {
+    margin-right: 1em;
+  }
+  span {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+}
+
+mat-paginator {
+  display: none;
+}

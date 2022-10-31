@@ -1,0 +1,80 @@
+:host ::ng-deep mat-progress-spinner {
+  text-align: center !important;
+}
+
+.mat-mini-fab ::ng-deep .mat-button-focus-overlay {
+  display: none;
+}
+
+:host ::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #999999 !important;
+}
+
+mat-card {
+  margin-top: 1em;
+  padding: 0;
+  border: 2px solid #3f51b5;
+}
+
+mat-card-header {
+  background: #3f51b5;
+  padding: 5px;
+  color: white;
+}
+
+mat-card-title {
+  margin: 10px 0 !important;
+}
+
+mat-card-content {
+  padding: 10px;
+}
+
+section {
+  max-height: 260px;
+}
+
+.mat-column-name,
+.mat-column-document,
+.mat-column-phone  {
+  max-width: 100%;
+}
+
+th.mat-header-cell:last-of-type, td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+  padding-right: 0;
+}
+
+h2 {
+  color: #3f51b5 !important;
+  background: #eaf4fdb3;
+  border-left: 6px solid #3f51b5;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-prefix,
+.mat-form-field-appearance-outline .mat-form-field-suffix {
+    top: -0.1em !important;
+}
+
+.btn-pagination {
+  margin-top: 1em;
+  button {
+    border-radius: 16px;
+  }
+  button:first-child {
+    margin-right: 1em;
+  }
+  span {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+}
+
+mat-paginator {
+  display: none;
+}
