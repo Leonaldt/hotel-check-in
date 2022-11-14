@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/hotel-check-in",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
