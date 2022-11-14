@@ -256,8 +256,9 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
 
   resetFields() {
     this.loading = false;
-    this.dataSource.filter = '';
     this.searchForm.reset();
+    this.dataSource.filter = '';
+    this.title = 'Novo Check-in';
     this.checkInModeActiveted = false;
     this.searchForm.controls['total'].setValue(0);
   }
